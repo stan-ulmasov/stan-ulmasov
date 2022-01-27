@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="generics" />
         <module name="collections-review" />
         <module name="oop-review" />
+        <module name="generics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="collections-review" target="11" />
+      <module name="collectionss-review" target="11" />
       <module name="generics" target="11" />
       <module name="oop-review" target="11" />
     </bytecodeTargetLevel>
